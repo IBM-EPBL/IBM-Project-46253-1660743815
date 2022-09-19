@@ -1,5 +1,5 @@
 from flask import Flask , render_template,request,json
-app = Flask(__name__)
+app = Flask(_name_)
 
 @app.route('/')
 def home():
