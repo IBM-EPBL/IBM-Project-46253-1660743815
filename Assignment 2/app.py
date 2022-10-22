@@ -1,6 +1,6 @@
+
 import ibm_db
-conn=ibm_db.connect("DATABASE=bludb;HOSTNAME=b1bc1829-6f45-4cd4-bef4-10cf081900bf.c1ogj3sd0tgtu0lqde00.databases.appdomain.cloud
-;PORT=32304;SECURITY=SSL; ServerCertificate=DigiCertGlobalRootCA(2).crt;UID=gqn83183;PWD=diZUr3RYGQXsOP1H,'','');
+conn=ibm_db.connect("DATABASE=bludb;HOSTNAME=3883e7e4-18f5-4afe-be8c-fa31c41761d2.bs2io90l08kqb1od8lcg.databases.appdomain.cloud;PORT=31498;SECURITY=SSL;ServerCertificate=DigiCertGlobalRootCA (1).crt;UID=cqc27127;PWD=2d8IfxYcI85CayCc",'','')
 from flask import Flask;
 from flask import render_template;
 
