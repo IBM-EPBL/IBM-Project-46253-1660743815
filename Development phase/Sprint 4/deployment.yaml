@@ -1,0 +1,20 @@
+ apiVersion: apps/v1
+ kind: Deployment
+ metadata:
+   name: ibmjob-14173-1659543653-deployment
+ spec:
+   replicas: 1
+   selector:
+     matchLabels:
+       app: ibmjob
+   template:
+     metadata:
+       labels:
+         app: ibmjob
+     spec:
+       containers:
+       - name: ibmjob
+         image: us.icr.io/ibmjob/ibmjob
+         imagePullPolicy: Always
+         ports:
+         - containerPort: 5000
