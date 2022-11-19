@@ -1,0 +1,13 @@
+ apiVersion: v1
+ kind: Service
+ metadata:
+   name: ibmjob-14173-1659543653-service
+ spec:
+   type: NodePort
+   ports:
+   - name: appport
+     port: 5000
+     targetPort: 5000
+     nodePort: 30000
+   selector:
+     app: ibmjob
